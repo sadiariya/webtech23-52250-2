@@ -1,0 +1,40 @@
+hotel-receptionist-system/
+├── config/
+│   └── database.php
+├── controllers/
+│   ├── ReceptionistController.php
+│   ├── AuthController.php
+│   └── AjaxController.php
+├── models/
+│   ├── User.php
+│   ├── Room.php
+│   ├── Booking.php
+│   ├── Billing.php
+│   ├── ServiceRequest.php
+│   └── EarlyLateRequest.php
+├── views/
+│   ├── receptionist/
+│   │   ├── dashboard.php
+│   │   ├── checkin.php
+│   │   ├── checkout.php
+│   │   ├── walkin-booking.php
+│   │   ├── service-requests.php
+│   │   ├── modifications.php
+│   │   ├── room-status.php
+│   │   └── report.php
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── profile.php
+│   └── layouts/
+│       └── receptionist-layout.php
+├── public/
+│   ├── index.php
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── receptionist.js
+│   └── api/
+│       └── ajax-handler.php
+├── sql/
+│   └── receptionist_schema.sql
+└── .htaccess
